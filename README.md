@@ -8,8 +8,8 @@ Este es el código más simple en este asunto para ahorrar el esfuerzo inicial.
 El código está en Python con algún estilo de programación funcional.
 Para comenzar a trabajar con el código encriptado en la Torá, necesitamos tres (3) cosas:
 
-- **Genesis.txt:** a book to work with.
-  We can find in [tanach.us](https://tanach.us/Server.txt?Genesis*&content=Consonants)
+- **Genesis.txt:** un libro para trabajar.
+  Nosotros podemos encontrar más libros en [tanach.us](https://tanach.us/Server.txt?Genesis*&content=Consonants)
 
 - **mispar.py:** es una tabla de conversión numérica.
 Trabajaremos con los valores de 22 letras Mispar-Hechrachi.
