@@ -27,14 +27,31 @@ def processBook(book):
         print(word,end='')
 
 
-if __name__ == '__main__':
+def main():
   import sys
   if len(sys.argv) < 2:
-    print('''Use:  python3 gematria.py Genesis.txt
-The file can be downloaded from:
+    print('''Uso:  python3 gematria.py Genesis.txt
+El archivo se puede descargar de:
   https://tanach.us/Server.txt?Genesis*&content=Consonants''')
+    sys.exit()
+
+  filename = sys.argv[1]
+  print("Contenido del archivo: ",filename)
+  book = readBook(filename)
+  processBook(book)
+
+
+if __name__ == '__main__':
+  main()
+  ''''
+  import sys
+  if len(sys.argv) < 2:
+    print(Uso:  python3 gematria.py Genesis.txt
+El archivo se puede descargar de:
+  https://tanach.us/Server.txt?Genesis*&content=Consonants)
     sys.exit()
 
   filename = sys.argv[1]
   book = readBook(filename)
   processBook(book)
+'''

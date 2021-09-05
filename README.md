@@ -2,46 +2,46 @@
 
 > Ésta es una copia del repositorio de Sefart.net
 
-To get more info visit [sefart.net](https://sefart.net/metodologia/)
+Para más información [sefart.net](https://sefart.net/metodologia/)
 
-This is the simplest code in this matter to save the initial effort.
-The code is in Python with some functional programing style.
-To start working with the encripted code in the torah, we need trhee(3) thing:
+Este es el código más simple en este asunto para ahorrar el esfuerzo inicial.
+El código está en Python con algún estilo de programación funcional.
+Para comenzar a trabajar con el código encriptado en la Torá, necesitamos tres (3) cosas:
 
 - **Genesis.txt:** a book to work with.
   We can find in [tanach.us](https://tanach.us/Server.txt?Genesis*&content=Consonants)
 
-- **mispar.py:** a conversion table.
-  We will work with the 22 letters Mispar-Hechrachi values.
-  The are varians such as the Mispar-Gadol values, among others[1].
+- **mispar.py:** es una tabla de conversión numérica.
+Trabajaremos con los valores de 22 letras Mispar-Hechrachi.
+Son variantes como los valores de Mispar-Gadol, entre otros[1].
 
-- **gematria.py:** the processor script.
+- **gematria.py:** es el script de procesamiento.
 
-To use the code:
-- First download both *.py*
-- Second download a book from the url suggested above.
-- Move all of them to the same folder.
-- Into the folder execute:
+Para usar:
+- Descargar ambos archivos *.py*
+- En segundo lugar, descargue un libro de la URL sugerida anteriormente.
+- Moverlos todos a la misma carpeta.
+- Dentro del folder ejecuta:
   `python3 gematria.py Genesis.txt`
 
-You can check your results with:
+Puedes comprobar tus resultados con:
 
 ![gematrix.org](https://raw.githubusercontent.com/giancarlocp/sefart-basic/master/img/gematrix.org.png)
 
-The first lines result processing Genesis.txt is:
+Procesamiento del resultado de las primeras líneas  Genesis.txt es:
 
 ![result](https://raw.githubusercontent.com/giancarlocp/sefart-basic/master/img/result-example.png)
 
-To get the mirror binary code we suggest insert the following lines after
-we get `gem` in [gematria.py](https://github.com/giancarlocp/sefart-basic/blob/master/gematria.py#L23):
+Para obtener el código binario espejo, sugerimos insertar las siguientes líneas después
+nosotros obtenemos `gem` en [gematria.py](https://github.com/giancarlocp/sefart-basic/blob/master/gematria.py#L23):
 ```python
 binary = format(gem,'012b')
 mirror = binary[::-1]
 ```
 
-We don't save the processed info in any format.
-The intention is give a basic code/knowlegde to start to work with.
+No guardamos la información procesada en ningún formato.
+La intención es dar un código / conocimiento básico con el que empezar a trabajar.
 
-Enjoy!
+Enlace:
 
 [1] https://en.wikipedia.org/wiki/Gematria
