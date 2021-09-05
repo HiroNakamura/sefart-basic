@@ -28,7 +28,7 @@ Puedes comprobar tus resultados con:
 
 ![gematrix.org](https://raw.githubusercontent.com/giancarlocp/sefart-basic/master/img/gematrix.org.png)
 
-Procesamiento del resultado de las primeras líneas  Genesis.txt es:
+El procesamiento del resultado de las primeras líneas  Genesis.txt es:
 
 ![result](https://raw.githubusercontent.com/giancarlocp/sefart-basic/master/img/result-example.png)
 
