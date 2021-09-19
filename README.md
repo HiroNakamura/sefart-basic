@@ -48,3 +48,6 @@ Enlace:
 
 [1] https://en.wikipedia.org/wiki/Gematria
 [2] http://brianramos.com
+[3] https://github.com/rlebron88/PyZenity
+[4] https://pypi.org/project/python-zenity/
+[5] http://brianramos.com/software/PyZenity/docs/

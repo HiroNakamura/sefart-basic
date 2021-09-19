@@ -1,6 +1,8 @@
 #!/bin/python3
 from functools import reduce
 from mispar import mispar
+from PyZenity import Notification 
+
 letters = mispar.keys()
 
 
@@ -39,7 +41,7 @@ El archivo se puede descargar de:
   print("Contenido del archivo: ",filename)
   book = readBook(filename)
   processBook(book)
-
+  Notification(text='Hecho, hemos terminado!')
 
 if __name__ == '__main__':
   main()
