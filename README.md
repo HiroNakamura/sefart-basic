@@ -1,6 +1,8 @@
 # Sefart-basic
 
-> Ésta es una copia del repositorio de Sefart.net
+> Ésta es una copia del repositorio de Sefart.net 
+
+Se hará un cambio usando PyZenity.
 
 Para más información [sefart.net](https://sefart.net/metodologia/)
 
@@ -45,3 +47,4 @@ La intención es dar un código / conocimiento básico con el que empezar a trab
 Enlace:
 
 [1] https://en.wikipedia.org/wiki/Gematria
+[2] http://brianramos.com
