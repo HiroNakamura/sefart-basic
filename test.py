@@ -5,9 +5,9 @@ from PyZenity import GetFilename
 
 def main():
     archivo = None
-    lineas = None
+    #lineas = None
     try:
-        archivo = GetFilename(multiple=True,sep='|')
+        archivo = GetFilename(multiple=True, sep='|')
     except TypeError as ex:
         ErrorMessage("Ha ocurrido una excepcion al obtener el archivo: "+str(ex))
     
