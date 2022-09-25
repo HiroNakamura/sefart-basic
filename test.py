@@ -5,6 +5,7 @@ from tkinter.filedialog import askopenfilename
 from tkinter import *
 
 def main():
+    print("\t [SEFART BASIC]")
     archivo = None
     try:
         Tk().withdraw()
@@ -14,7 +15,10 @@ def main():
     
     if archivo != None:
         try:
-            InfoMessage("Seleccion: "+str(archivo))
+            InfoMessage("\t[Archivo]\n\tSeleccion: "+str(archivo))
+            archivo = open(archivo)
+            for linea in archivo:
+                print(linea)
         except Exception as ex:
             ErrorMessage("Ha ocurrido un error al tratar de mostrar la información: "+str(ex))
     

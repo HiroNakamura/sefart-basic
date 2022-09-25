@@ -51,3 +51,4 @@ Enlace:
 [3] https://github.com/rlebron88/PyZenity
 [4] https://pypi.org/project/python-zenity/
 [5] http://brianramos.com/software/PyZenity/docs/
+[6] https://www.pythonforbeginners.com/files/reading-and-writing-files-in-python

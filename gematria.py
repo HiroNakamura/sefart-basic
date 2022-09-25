@@ -1,7 +1,7 @@
 #!/bin/python3
 from functools import reduce
 from mispar import mispar
-from PyZenity import Notification 
+from PyZenity import Notification, InfoMessage
 
 letters = mispar.keys()
 
@@ -30,9 +30,10 @@ def processBook(book):
 
 
 def main():
+  InfoMessage("[ SEFART BASIC ]")
   import sys
   if len(sys.argv) < 2:
-    print('''Uso:  python3 gematria.py Genesis.txt
+    Notification(text='''Uso:  python3 gematria.py Genesis.txt
 El archivo se puede descargar de:
   https://tanach.us/Server.txt?Genesis*&content=Consonants''')
     sys.exit()
